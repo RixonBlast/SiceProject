@@ -1,0 +1,383 @@
+[data-tip]:hover:before{
+  content: attr(data-tip);
+  position: absolute;
+  padding: 0 8px;
+  height: 28px;
+  line-height: 28px;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 50px;
+  top: -100px;
+  font-size: 14px;
+  border-radius: 3px;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 11px;
+}
+
+[data-tip]:hover:after {
+  content: "";
+  position: absolute;
+  border-top: 8px solid rgba(0, 0, 0, 0.8);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  left: 61px;
+  top: -72px;
+}
+
+.helpTemp{
+     color:#ccc;
+     text-shadow:0 -1px 0 black;                
+}
+.helpTemp:hover,.helpTemp:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+.helpTemp span
+{
+  position:absolute;
+  margin-top:-162px;
+  margin-left:-35px;
+  color: #09c;
+  background: rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow: 0 0 2px rgba(0,0,0.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+  opacity:0;
+}
+.helpTemp:hover span, .helpTemp:focus span
+{
+  transform:scale(1) rotate(0);
+  opacity:1;
+}
+
+
+
+
+.helpHydro{
+     color:#ccc;
+     text-shadow:0 -1px 0 black;                
+}
+.helpHydro:hover,.helpHydro:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+.helpHydro span
+{
+  position:absolute;
+  margin-top:-183px;
+  margin-left:-35px;
+  color: #09c;
+  background: rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow: 0 0 2px rgba(0,0,0.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+  opacity:0;
+}
+.helpHydro:hover span, .helpHydro:focus span
+{
+  transform:scale(1) rotate(0);
+  opacity:1;
+}
+
+
+
+
+
+.helpHorloge{
+     color:#ccc;
+     text-shadow:0 -1px 0 black;                
+}
+.helpHorloge:hover,.helpHorloge:focus{
+     background:rgba(0,0,0,.4);
+     box-shadow:0 1px 0 rgba(255,255,255,.4);
+}
+.helpHorloge span
+{
+  position:absolute;
+  margin-top:-165px;
+  margin-left:-35px;
+  color: #09c;
+  background: rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow: 0 0 2px rgba(0,0,0.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+  opacity:0;
+}
+.helpHorloge:hover span, .helpHorloge:focus span
+{
+  transform:scale(1) rotate(0);
+  opacity:1;
+}
+
+
+
+
+@font-face
+{
+	font-family:'HelveticaNeue-Thin' ;
+	src: url('https://raw.githubusercontent.com/RixonBlast/SiceProject/blob/master/helvetica-neue-lt-std-37-thin-condensed-59011f0face73.otf');
+}
+
+*
+{
+	font-family:'HelveticaNeue-Thin', arial ;
+	
+
+}
+
+section
+{
+	margin: 60px;
+}
+
+
+.button
+{
+    display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+color:white;
+text-decoration:none;
+background:green;
+}
+
+.submit
+{
+	visibility:visible;
+	background-image: url() ;
+
+}
+
+.submit:hover
+{
+
+}
+
+.button:hover
+{
+	background
+}
+
+#progressBarTemp
+{
+  position: relative;
+  left:19%;
+  top:-10px;
+}
+
+
+#containerTemp2 {
+  width: 83px;
+  height: 83px;
+  position: absolute;
+  
+
+ 
+}
+
+#containerTemp1{
+	width: 60px;
+  height: 60px;
+  position: absolute;
+  left:5%;
+  top:11.5px;
+
+}
+
+#progressBarHydro
+{
+  position: relative;
+  left:19%;
+  top:-10px;
+}
+
+#containerHydro2{
+	 width: 83px;
+  height: 83px;
+  position: absolute;
+  
+  
+  
+
+}
+
+#containerHydro1{
+width: 60px;
+  height: 60px;
+  position: absolute;
+  left:5%;
+  top:11.5px;
+  
+
+}
+
+#progressBarHorloge
+{
+  position: relative;
+  left:0%;
+  top:-8px;
+}
+
+#containerHorlogeActuelle{
+	
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 30px;
+  top: 31%;
+  
+}
+
+#containerHorlogeExigee{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  left: -75px;
+  top: 11%;
+  
+}
+
+#containerHorlogeExtinction{
+	 width: 75px;
+  height: 75px;
+  position: absolute;
+  left: 135px;
+  top: 51%;
+  
+}
+
+.horlogeExigee
+{
+	position: absolute;
+	left: -55px;
+	top: 27px;
+
+}
+
+#horlogeActuelle
+{
+position:absolute;
+left:49px;
+top:27px;
+}
+
+.horlogeExtinction
+{
+	position: absolute;
+	left:155px;
+	top: 27px;
+}
+
+#tempActuelle
+{
+	position:absolute;
+	left: 11.6%;
+  top: 31px;
+}
+
+#hydroActuel
+{
+	position:absolute;
+	left: 11.6%;
+  top: 31px;
+}
+
+
+.center
+{
+	text-align: center;
+}
+
+
+.temperature
+{
+	position: absolute;
+
+	left: 10%;
+
+	top: 375px;
+}
+
+#iconHydro1
+{
+  position: absolute;
+  left:20%;
+  top:-35%;
+  
+}
+
+ #iconTemp
+ {
+  position: absolute;
+  left:20%;
+  top: -35%;
+ }
+
+#iconHorloge
+{
+  position: absolute;
+  left: 12.5%;
+  top: -59px;
+}
+
+.hydrométrie
+{
+	position: absolute;
+
+	right: 10%;
+
+	top: 590px;
+}
+
+
+.horloge
+{
+	position: absolute;
+
+	left: 10%;
+
+	top: 800px;
+}
+
+#inputHorloge1
+{
+  text-align: center;
+  position:relative;
+
+  top:10px;
+  left: -55px;
+}
+
+
+
+
+
+footer
+{
+	position: absolute;
+
+	top: 1350px;
+
+	right: 40%;
+	font-size: 14px;
+}
+
+.contact
+{
+	text-decoration: blink;
+	color:#101010 ;
+
+}
+
+.contact:hover
+{
+	color:grey;
+}
